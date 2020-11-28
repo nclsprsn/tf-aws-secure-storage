@@ -17,3 +17,9 @@ variable "stack" {
   type        = string
   description = "Stack name, name of the project, customer name..."
 }
+
+variable "enable_versioning" {
+  type        = bool
+  description = "Enable bucket versioning"
+  default     = false
+}
